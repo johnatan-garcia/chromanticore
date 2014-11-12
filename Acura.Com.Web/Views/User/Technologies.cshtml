@@ -1,0 +1,10 @@
+﻿@model List<Acura.Com.Web.Models.Technology>
+@foreach (var item in Model) {
+    <div class="col-md-4 text-center tileBox">
+        <div class="txtHead">
+            <i class="fa fa-@item.Icon"></i>
+            <h3>@item.Name</h3>
+        </div>
+        <p>@item.Description</p>
+    </div>
+}
