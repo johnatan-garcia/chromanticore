@@ -165,20 +165,13 @@
     <None Include="Properties\PublishProfiles\Acura.Com Sitecore Deploy.pubxml">
       <SubType>Designer</SubType>
     </None>
-    <Content Include="web.config">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\layouts\AcuraLayout.cshtml" />
     <Content Include="Views\renderings\common\BrandHeader.cshtml" />
     <Content Include="Views\renderings\common\BrandFooter.cshtml" />
     <Content Include="Views\User\Technologies.cshtml" />
-    <None Include="web.Debug.config">
-      <DependentUpon>web.config</DependentUpon>
-    </None>
-    <None Include="web.Release.config">
-      <DependentUpon>web.config</DependentUpon>
-    </None>
+    <Content Include="Views\renderings\visual\ThreeColumn.cshtml" />
+    <Content Include="Views\renderings\visual\Technology.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sitecore.Razorfish.Controls\Sitecore.Razorfish.Controls.csproj">
