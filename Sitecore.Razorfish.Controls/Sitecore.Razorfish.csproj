@@ -7,8 +7,8 @@
     <ProjectGuid>{97F2CEBB-2803-45EF-B34A-E00780B21EB6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sitecore.Razorfish.Controls</RootNamespace>
-    <AssemblyName>Sitecore.Razorfish.Controls</AssemblyName>
+    <RootNamespace>Sitecore.Razorfish</RootNamespace>
+    <AssemblyName>Sitecore.Razorfish</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,8 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomCheckList.cs" />
-    <Compile Include="ImageLink.cs" />
+    <Compile Include="Controls\CustomCheckList.cs" />
+    <Compile Include="Extensions\ItemExtensions.cs" />
+    <Compile Include="Controls\ImageLink.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

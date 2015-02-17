@@ -13,6 +13,12 @@ License: Free to use for personal and commercial, but you need to place back lin
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.imageContainer > img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
 body {
     font-size: 14px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -1139,3 +1145,10 @@ footer {
         user-select: none;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
+
+.showcase span {
+    display: block;
+}
+.showcase .tagline {
+    font-size: 1.6em;
+}

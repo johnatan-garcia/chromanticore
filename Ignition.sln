@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acura.Com.Web", "Acura.Com.Web\Acura.Com.Web.csproj", "{FDA51334-EF2E-4A93-A885-C4DA6E0E819B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Razorfish.Controls", "Sitecore.Razorfish.Controls\Sitecore.Razorfish.Controls.csproj", "{97F2CEBB-2803-45EF-B34A-E00780B21EB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Razorfish", "Sitecore.Razorfish.Controls\Sitecore.Razorfish.csproj", "{97F2CEBB-2803-45EF-B34A-E00780B21EB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

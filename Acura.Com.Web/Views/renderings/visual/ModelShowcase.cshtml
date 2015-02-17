@@ -1,0 +1,9 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="wrapper showcase">
+    <h3>@Html.Sitecore().Field("Name", Model.Item)</h3>
+    <div class="imageContainer">
+        @Html.Sitecore().Field("Small Photo", Model.Item, new { @class = "imageClass" })
+    </div>
+    <span class="tagline">@Html.Sitecore().Field("Tagline", Model.Item)</span>
+    <span>@Html.Sitecore().Field("Pricing Tagline", Model.Item)</span>
+</div>

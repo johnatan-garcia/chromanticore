@@ -143,8 +143,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\UserController.cs" />
-    <Compile Include="Models\UserModels.cs" />
+    <Compile Include="App_Start\Abstracts\BaseStartup.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebAPIStartup.cs" />
+    <Compile Include="Controllers\Abstracts\BaseController.cs" />
+    <Compile Include="Controllers\Abstracts\BaseJsonController.cs" />
+    <Compile Include="Controllers\ModelController.cs" />
+    <Compile Include="Formatters\JsonNetResult.cs" />
+    <Compile Include="Models\ModelModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -156,7 +162,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="App_Start\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -171,12 +176,12 @@
     <Content Include="Views\renderings\common\BrandFooter.cshtml" />
     <Content Include="Views\User\Technologies.cshtml" />
     <Content Include="Views\renderings\visual\ThreeColumn.cshtml" />
-    <Content Include="Views\renderings\visual\Technology.cshtml" />
+    <Content Include="Views\renderings\visual\ModelShowcase.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sitecore.Razorfish.Controls\Sitecore.Razorfish.Controls.csproj">
+    <ProjectReference Include="..\Sitecore.Razorfish.Controls\Sitecore.Razorfish.csproj">
       <Project>{97f2cebb-2803-45ef-b34a-e00780b21eb6}</Project>
-      <Name>Sitecore.Razorfish.Controls</Name>
+      <Name>Sitecore.Razorfish</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
